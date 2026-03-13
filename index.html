@@ -63,19 +63,12 @@
         .btn-calc { background-color: #111; color: #ffcc00; margin-bottom: 20px; }
         .btn-calc:active { background-color: #333; }
         .btn-wa { background-color: #25D366; color: white; display: none; }
-
-        .note {
-            font-size: 11px;
-            color: #999;
-            text-align: center;
-            margin-top: 5px;
-        }
     </style>
 </head>
 <body>
 
     <div class="app-container">
-        <div class="header">OJEK MANDIRI</div>
+        <div class="header">OJEK MANDIRI (VIA WA)</div>
         
         <div class="form-section">
             <div class="input-group">
@@ -100,7 +93,6 @@
             <div class="price-value" id="tampilHarga">Rp 0</div>
             
             <button class="btn btn-wa" id="tombolWa" onclick="pesanWhatsApp()">PESAN SEKARANG VIA WA</button>
-            <p class="note">*Tarif Start : Rp4.000 + Rp2.000/km (min Rp8.000)</p>
         </div>
     </div>
 
@@ -198,8 +190,5 @@
         }
     </script>
 
-    <div style="font-size: 10px; text-align: center; color: #aaa; padding: 5px;">
-        🆓 Jarak dihitung menggunakan OpenStreetMap & OSRM.<br>Tarif: Rp4.000 + Rp2.000/km (minimum Rp8.000).
-    </div>
 </body>
 </html>
